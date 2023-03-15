@@ -80,16 +80,12 @@
             //Scarta card
 
             function excluirCard(event) {
-            // previne o comportamento padrão do botão de recarregar a página
             event.preventDefault();
 
-            // encontra o elemento do card que deve ser excluído
             const card = event.target.closest('.card');
-
-            // verifica se o card foi encontrado
             if (card) {
                 card.remove();
-            }
+                }
             }
     </script>
 
